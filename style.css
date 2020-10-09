@@ -9,7 +9,8 @@ header {
     height: 70px;
     background-color: white;
     display: grid;
-    grid-template-columns: 70px 2fr 1fr 1fr 1fr;
+    grid-template: 70px 2fr 1fr 1fr 1fr / 70px;
+    font-family: 'Oswald', sans-serif;
 }
 
  header img {
@@ -36,6 +37,14 @@ header h2 {
     grid-column: 5 / 6;
 }
 
+.header {
+    align-self: center;
+    text-transform: uppercase;
+}
+
+.nav {
+    justify-self: center;
+}
 
 /*
 @media only screen and (max-width: 768px) {
