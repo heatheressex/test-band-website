@@ -53,4 +53,12 @@ header h2 {
 
 .nav {
     justify-self: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
+}
+
+a.nav:hover {
+    color: rgb(100, 100, 100);
 }
