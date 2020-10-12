@@ -90,10 +90,7 @@ a.navlink:hover {
 .albums {
     display: grid;
     grid-template: 1fr / 1fr 1fr 1fr 1fr;
-}
-
-.albumJPG {
-    justify-self: center;
+    row-gap: 2%;
 }
 
 @media only screen and (max-width: 1250px) {
@@ -103,4 +100,16 @@ a.navlink:hover {
         grid-template: 1fr 1fr 1fr 1fr / 1fr;
     }
 
+}
+
+.album {
+    justify-self: center;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+}
+
+.album p {
+    color: black;
+    text-align: center;
 }
