@@ -74,7 +74,7 @@ a.navlink:hover {
     text-decoration: underline;
 }
 
-.main {
+main {
     padding: 0 10px;
     color: white;
     box-sizing: border-box;
@@ -131,7 +131,16 @@ a.navlink:hover {
     font-size: 40px;
 }
 
+.hero a {
+    text-decoration: none;
+}
+
 img {
     max-width: 100%;
     height: auto;
+}
+
+.cards {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr ;
 }
