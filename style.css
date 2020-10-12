@@ -88,5 +88,9 @@ a.navlink:hover {
 .albums {
     display: grid;
     grid-template: 1fr / 1fr 1fr 1fr 1fr;
-    column-gap: 1%;
+    column-gap: 5%;
+}
+
+.albumJPG {
+    justify-self: center;
 }
