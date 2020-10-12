@@ -118,3 +118,7 @@ a.navlink:hover {
     color: black;
     text-align: center;
 }
+
+.hero {
+    background-color: black;
+}
