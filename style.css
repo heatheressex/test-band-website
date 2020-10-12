@@ -74,6 +74,19 @@ a.navlink:hover {
     text-decoration: underline;
 }
 
-.title {
+.main {
     color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.title {
+    font-size: 50px;
+    margin: 40px 0px;
+    text-transform: uppercase;
+}
+
+.albums {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr 1fr;
+    column-gap: 1%;
 }
