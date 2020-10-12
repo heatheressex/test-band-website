@@ -62,3 +62,7 @@ header h2 {
 #tour {
     grid-column: 5 / 6;
 }
+
+.selected {
+    text-decoration: underline;
+}
