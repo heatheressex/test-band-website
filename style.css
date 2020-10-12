@@ -10,7 +10,8 @@ header {
     background-color: white;
     font-family: 'Oswald', sans-serif;
     display: grid;
-    grid-template: 70px 2fr 1fr 1fr 1fr / 70px;
+    grid-template-columns: 70px 5fr 1fr 1fr 1fr;
+    grid-template-rows: 70px;
     column-gap: 1%;
 }
 
