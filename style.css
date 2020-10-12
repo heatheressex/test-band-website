@@ -143,4 +143,20 @@ img {
 .cards {
     display: grid;
     grid-template: 1fr / 1fr 1fr 1fr ;
+    margin: 40px;
+    column-gap: 5%;
+}
+
+.card {
+    justify-self: center;
+    text-decoration: none;
+    color: white;
+}
+
+.card h3 {
+    text-transform: uppercase;
+}
+
+.card:hover {
+    color: rgb(161, 161, 161);
 }
