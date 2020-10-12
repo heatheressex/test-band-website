@@ -90,9 +90,17 @@ a.navlink:hover {
 .albums {
     display: grid;
     grid-template: 1fr / 1fr 1fr 1fr 1fr;
-    column-gap: 5%;
 }
 
 .albumJPG {
     justify-self: center;
+}
+
+@media only screen and (max-width: 1250px) {
+    /* For mobile phones: */
+
+    .albums {
+        grid-template: 1fr 1fr 1fr 1fr / 1fr;
+    }
+
 }
