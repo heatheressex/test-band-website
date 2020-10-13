@@ -181,5 +181,11 @@ footer {
 .footerContent {
     display: grid;
     grid-template: 1fr / 1fr 1fr 1fr 1fr;
-    color: white;
+    color: rgb(150, 150, 150);
+}
+
+.footerContent a {
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+    align-self: center;
 }
