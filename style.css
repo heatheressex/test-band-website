@@ -8,7 +8,7 @@ body {
 
 .wrapper {
     min-height: 100vh;
-    padding-bottom: 125px;
+    padding-bottom: 160px;
     position: relative;
     box-sizing: border-box;
 }
@@ -184,7 +184,7 @@ img {
 
 footer {
     background-color: rgb(20, 20, 20);
-    height: 97px;
+    height: 136px;
     position: absolute;
     bottom: 0;
     width: 100%
@@ -201,7 +201,13 @@ footer {
 }
 
 .footerContent a {
+    color: rgb(102, 102, 102);
     text-decoration: none;
+}
+
+.sublink {
+    display: block;
+    margin-bottom: 16px;
 }
 
 a.footertxt {
