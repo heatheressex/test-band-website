@@ -8,7 +8,7 @@ body {
 
 .wrapper {
     min-height: 100vh;
-    padding-bottom: 50px;
+    padding-bottom: 125px;
     position: relative;
     box-sizing: border-box;
 }
@@ -184,7 +184,7 @@ img {
 
 footer {
     background-color: rgb(20, 20, 20);
-    height: 56px;
+    height: 97px;
     position: absolute;
     bottom: 0;
     width: 100%
@@ -212,10 +212,15 @@ a.footertxt {
     color: white;
 }
 
+.contact p {
+    margin-bottom: 5px;
+}
+
 .fa {
     padding: 10px;
     width: 20px;
     text-align: center;
+    margin-bottom: 16px;
 }
 
 .fa-facebook {
