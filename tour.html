@@ -2,21 +2,78 @@
 <html>
   <head>
     <title>My Chemical Romance</title>
+    <link rel="icon" href="images/180px-MCRXLogo.png">
+
     <link href="style.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0" name="viewport">
   </head>
   <body>
-    <!-- Temporary -->
-    <header>
-
-    </header>
-    <main>
-        
-    </main>
+    <div class="wrapper">
+      <header>
+        <div class="navigation centre">
+          <a href="index.html"><img src="images/180px-MCRXLogo.png"/></a>
+          <a class="header" href="index.html"><h2>My Chemical Romance</h2></a>
+          <a id="about" class="header navlink" href="about.html">About</a>
+          <a id="music" class="header navlink" href="music.html">Music</a>
+          <a id="tour" class="selected header navlink" href="tour.html">Tour</a>
+        </div>
+      </header>
+      <div class="hero">
+        <div class="centre">
+          <img src="images/tourHeader.jpg" alt="MCR logo" width="720" height="405"/>
+        </div>
+      </div>
+      <main class="centre">
+          <div class="cards">
+            <a class=card href="about.html">
+              <img src="images/livePerformance.jpg" alt="Gerard and Mikey Way performing live">
+              <h3>A rock band</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Donec convallis faucibus orci sit amet sodales. Suspendisse fringilla pretium elit, 
+                lobortis elementum dui varius at. Morbi non fermentum arcu. Etiam id gravida mi. 
+                Aliquam vel fermentum dui. Praesent gravida nibh eget nisi pellentesque congue.</p>
+            </a>
+            <a class=card href="music.html">
+              <img src="images/albumStack.jpg" alt="A stack of MCR albums">
+              <h3>Multiple albums</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Donec convallis faucibus orci sit amet sodales. Suspendisse fringilla pretium elit, 
+                lobortis elementum dui varius at. Morbi non fermentum arcu. Etiam id gravida mi. 
+                Aliquam vel fermentum dui. Praesent gravida nibh eget nisi pellentesque congue.</p>
+            </a>
+            <a class=card href="tour.html">
+              <img src="images/return.jpg" alt="MCR's new iconography">
+              <h3>The return of MCR</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Donec convallis faucibus orci sit amet sodales. Suspendisse fringilla pretium elit, 
+                lobortis elementum dui varius at. Morbi non fermentum arcu. Etiam id gravida mi. 
+                Aliquam vel fermentum dui. Praesent gravida nibh eget nisi pellentesque congue.</p>
+            </a>
+          </div>
+      </main>
+    </div>
     <footer>
-
+      <div class="footerContent centre">
+        <a class="footertxt" href="about.html">About Us</a>
+        <div class="footertxt">
+          <p>Information</p>
+          <a class="sublink" href="music.html">Music</a>
+          <a class="sublink" href="tour.html">Tour</a>
+        </div>
+        <div class="footertxt">
+          <p>Shop</p>
+          <a class="sublink" href="music.html">Merch</a>
+          <a class="sublink" href="tour.html">Tickets</a>
+        </div>
+        <div class="contact footertxt">
+          <p>Contact Us</p>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
