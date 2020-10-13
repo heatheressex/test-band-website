@@ -193,11 +193,35 @@ footer {
 .footerContent {
     display: grid;
     grid-template: 1fr / 1fr 1fr 1fr 1fr;
+}
+
+.footertxt {
     color: rgb(150, 150, 150);
+    justify-self: center;
 }
 
 .footerContent a {
     text-decoration: none;
-    color: rgb(150, 150, 150);
-    align-self: center;
+}
+
+a.footertxt {
+    margin-top: 16px;
+}
+
+.contact a {
+    color: white;
+}
+
+.fa {
+    padding: 10px;
+    width: 20px;
+    text-align: center;
+}
+
+.fa-facebook {
+    background: #3B5998;
+}
+
+.fa-twitter {
+    background: #55ACEE;
 }
