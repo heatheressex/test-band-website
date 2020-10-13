@@ -3,6 +3,13 @@ body {
     padding: 0;
     background-color: rgb(29, 29, 29);
     font-family: 'Oswald', sans-serif;
+    position: relative;
+}
+
+.wrapper {
+    min-height: 100vh;
+    padding-bottom: 50px;
+    position: relative;
 }
 
 header {
@@ -176,6 +183,10 @@ img {
 
 footer {
     background-color: rgb(20, 20, 20);
+    height: 56px;
+    position: absolute;
+    bottom: 0;
+    width: 100%
 }
 
 .footerContent {
