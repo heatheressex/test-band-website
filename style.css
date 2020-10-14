@@ -162,7 +162,7 @@ img {
 .cards {
     display: grid;
     grid-template: 1fr / 1fr 1fr 1fr ;
-    margin: 40px 2% 60px 2%;
+    margin: 40px 2%;
     column-gap: 5%;
 }
 
@@ -198,7 +198,7 @@ footer {
     height: 136px;
     position: absolute;
     bottom: 0;
-    width: 100%
+    width: 100%;
 }
 
 .footerContent {
@@ -287,7 +287,6 @@ a.footertxt {
     background-color: rgb(29, 29, 29);
     padding: 50px;
     box-sizing: content-box;
-    height: calc(100vh - 556.33px)
 }
 
 #tourbody {
