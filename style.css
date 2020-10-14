@@ -24,7 +24,7 @@ header {
 
 .centreTour {
     margin: auto;
-    max-width: 800px; 
+    max-width: 800px;
 }
 
 .navigation {
@@ -283,6 +283,9 @@ a.footertxt {
     text-transform: capitalize;
 }
 
-#tourBody {
+.tourmain {
     background-color: black;
+    padding: 50px;
+    box-sizing: content-box;
+    height: calc(100vh - 556.33px)
 }
