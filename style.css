@@ -152,8 +152,16 @@ main {
     padding-top: 100px;
 }
 
-#tourherotxt {
-    padding: 30px 0 20px 0;
+#tourheroone {
+    padding-top: 20px;
+}
+
+#tourherotwo {
+    color: rgb(130 118 82);
+}
+
+.hero .centreTour img {
+    padding-top: 30px;
 }
 
 img {
