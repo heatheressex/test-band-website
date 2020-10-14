@@ -8,7 +8,7 @@ body {
 
 .wrapper {
     min-height: 100vh;
-    padding-bottom: 160px;
+    padding-bottom: 136px;
     position: relative;
     box-sizing: border-box;
 }
@@ -162,7 +162,7 @@ img {
 .cards {
     display: grid;
     grid-template: 1fr / 1fr 1fr 1fr ;
-    margin: 40px 2% 40px 2%;
+    margin: 40px 2% 60px 2%;
     column-gap: 5%;
 }
 
