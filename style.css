@@ -247,3 +247,7 @@ a.footertxt {
 .fa-twitter {
     background: #55ACEE;
 }
+
+.fa:hover, .footerContent a:hover {
+    opacity: 0.7;
+}
