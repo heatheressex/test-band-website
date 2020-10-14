@@ -278,9 +278,13 @@ a.footertxt {
 .tickets {
     justify-self: right;
     background-color: white;
-    color: black;
     padding: 5px;
     text-transform: uppercase;
+}
+
+.tickets a {
+    color: black;
+    text-decoration: none;
 }
 
 .soldout {
