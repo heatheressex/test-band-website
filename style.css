@@ -110,6 +110,7 @@ main {
     display: grid;
     grid-template: 1fr / 1fr 1fr 1fr 1fr;
     row-gap: 2%;
+    margin-bottom: 100px;
 }
 
 @media only screen and (max-width: 1250px) {
@@ -125,7 +126,6 @@ main {
     justify-self: center;
     background-color: white;
     padding: 10px 10px 10px 10px;
-    margin-bottom: 10px;
 }
 
 .album p {
