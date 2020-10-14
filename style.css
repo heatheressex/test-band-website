@@ -8,7 +8,7 @@ body {
 
 .wrapper {
     min-height: 100vh;
-    padding-bottom: 136px;
+    padding-bottom: 160px;
     position: relative;
     box-sizing: border-box;
 }
@@ -262,6 +262,15 @@ a.footertxt {
     padding: 10px;
 }
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+    .show {
+        column-gap: 1%;
+    }
+
+}
+
 .show p {
     margin: 0;
 }
@@ -287,6 +296,7 @@ a.footertxt {
     background-color: rgb(29, 29, 29);
     padding: 50px;
     box-sizing: content-box;
+    margin-bottom: 20px;
 }
 
 #tourbody {
