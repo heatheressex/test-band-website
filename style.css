@@ -136,16 +136,24 @@ main {
 }
 
 .hero h1 {
-    margin: 0;
+    color: white;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 100px;
     font-size: 40px;
+    margin: 0;
 }
 
 .hero a {
     text-decoration: none;
     color: white;
+}
+
+#herotxt {
+    padding-top: 100px;
+}
+
+#tourherotxt {
+    padding: 30px 0 20px 0;
 }
 
 img {
