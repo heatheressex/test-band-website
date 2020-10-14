@@ -24,7 +24,7 @@ header {
 
 .centreTour {
     margin: auto;
-    max-width: 720px; 
+    max-width: 800px; 
 }
 
 .navigation {
@@ -150,18 +150,6 @@ main {
 
 #herotxt {
     padding-top: 100px;
-}
-
-#tourheroone {
-    padding-top: 20px;
-}
-
-#tourherotwo {
-    color: rgb(130 118 82);
-}
-
-.hero .centreTour img {
-    padding-top: 30px;
 }
 
 img {
