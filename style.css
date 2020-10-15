@@ -224,7 +224,7 @@ img {
     text-transform: uppercase;
 }
 
-.card:hover {
+.card.index:hover {
     color: rgb(161, 161, 161);
 }
 
@@ -360,5 +360,20 @@ a.footertxt {
     text-transform: uppercase;
     text-align: center;
     margin: 0;
-    padding: 10px 0;
+}
+
+.abouttitle h2 {
+    margin: 0 0 20px 0;
+    padding: 20px 0;
+}
+
+.intro {
+    display: grid;
+    grid-template: 1fr / 1.5fr 1fr;
+    margin: 0 5%;
+    column-gap: 5%;
+}
+
+.introelem {
+    padding: 5%;
 }
