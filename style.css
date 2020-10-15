@@ -108,19 +108,9 @@ main {
 
 .albums {
     display: grid;
-    grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr;
+    grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr;
     row-gap: 2%;
     margin-bottom: 100px;
-}
-
-@media only screen and (max-width: 1250px) {
-    /* For mobile phones: */
-
-    .albums {
-        grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr;
-        grid-auto-flow: column;
-    }
-
 }
 
 .album {
@@ -135,12 +125,24 @@ main {
 }
 
 .albumtxt {
-    background-color: white;
-    color: black;
-    border-radius: 10px;
-    max-width: 295px;
-    min-width: 80%;
-    justify-self: center;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.albumtxt h3 {
+    text-align: center;
+}
+
+.left {
+    justify-self: left;
+}
+
+.right {
+    justify-self: right;
 }
 
 .hero {
