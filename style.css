@@ -354,3 +354,10 @@ a.footertxt {
 #tourbody {
     background-color: black;
 }
+
+.aboutus {
+    background-image: url(images/aboutushero.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+  }
