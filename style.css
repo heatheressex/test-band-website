@@ -394,6 +394,16 @@ a.footertxt {
     row-gap: 2%;
 }
 
+@media only screen and (max-width: 1000px) {
+    /* For mobile phones: */
+
+    .profile {
+        grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr / 1fr;
+        margin-bottom: 320px;
+    }
+}
+
+
 .profileimg p {
     color: black;
     text-align: center;
