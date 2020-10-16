@@ -39,6 +39,7 @@ header {
     /* For mobile phones: */
     .navigation {
         column-gap: 2%;
+        margin-right: 2px;
     }
 }
 
@@ -401,8 +402,21 @@ a.footertxt {
         grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr / 1fr;
         margin-bottom: 320px;
     }
+
 }
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+    .intro {
+        grid-template: 1fr / 5fr 1fr;
+    }
+
+    h1.introelem {
+        font-size: 1em;
+    }
+
+}
 
 .profileimg p {
     color: black;
