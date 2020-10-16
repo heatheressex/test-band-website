@@ -389,8 +389,9 @@ a.footertxt {
 .profile {
     display: grid;
     grid: 1fr 1fr / 1fr 1fr 1fr 1fr;
-    margin-top: 50px;
+    margin: 50px 0;
     column-gap: 2%;
+    row-gap: 2%;
 }
 
 .profileimg p {
