@@ -373,7 +373,7 @@ a.footertxt {
 }
 
 .aboutinfo {
-    padding: 40px 10px;
+    padding: 60px 10px;
     background-color: rgb(17, 17, 17);
 }
 
@@ -400,6 +400,11 @@ a.footertxt {
     padding: 5%;
 }
 
+h1.introelem {
+    text-transform: uppercase;
+    align-self: center;
+}
+
 .profile {
     display: grid;
     grid: 1fr 1fr / 1fr 1fr 1fr 1fr;
@@ -415,6 +420,10 @@ a.footertxt {
         grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr / 1fr;
         margin-bottom: 320px;
         row-gap: 1%;
+    }
+
+    h1.introelem {
+        align-self: start;
     }
 
 }
