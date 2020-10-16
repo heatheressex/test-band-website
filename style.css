@@ -439,6 +439,14 @@ h1.introelem {
         font-size: 1em;
     }
 
+    .heroimg {
+        height: 150px;
+    }
+
+    .abouttitle h2 {
+        padding: 45px 0;
+    }
+
 }
 
 .profileimg p {
