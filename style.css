@@ -385,3 +385,40 @@ a.footertxt {
 .introelem {
     padding: 5%;
 }
+
+.profile {
+    display: grid;
+    grid: 1fr 1fr / 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    column-gap: 2%;
+}
+
+.profileimg p {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.profiletxt h2 {
+    background-color: white;
+    color: black;
+}
+
+.profilelist {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+}
+
+.profilelist li {
+    margin: 10px;
+}
+
+.faqquestions {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.faqanswers li {
+    list-style: none;
+    text-align: right;
+}
