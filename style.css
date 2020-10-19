@@ -56,14 +56,22 @@ header {
     list-style: none;
     background-color: white;
     text-align: center;
-    padding: 10px 0;
+    padding-bottom: 5px;
+}
+
+.burgermenu li {
+    padding: 2.5px 0;
 }
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
 
+    .navigation {
+        grid-template-columns: 70px 1fr 42px;
+    }
+
     .navlink {
-        visibility: hidden;
+        display: none;
     }
 
     .burgeropen {
