@@ -3,5 +3,7 @@ $( document ).ready(function() {
 
     $( ".burgericon" ).click(function() {
         $( ".burgermenu" ).toggleClass("active");
+        $( ".burgerclose" ).toggleClass("active");
+        $( ".burgeropen" ).toggleClass("inactive");
       });
 });

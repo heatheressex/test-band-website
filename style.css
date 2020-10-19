@@ -42,49 +42,48 @@ header {
 }
 
 .burgericon, .burgermenu {
-    position: absolute;
-    visibility: hidden;
+    display: none;
 }
 
 .burgericon {
+    position: absolute;
     right: 10px;
-    z-index: 2;
     top: 19px;
 }
 
 .burgermenu {
-    right: 0;
     font-weight: 600;
     list-style: none;
     background-color: white;
-    padding: 3% 20% 3% 3%;
+    text-align: center;
+    padding: 10px 0;
 }
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    .navigation {
-        column-gap: 2%;
-        margin-right: 2px;
-    }
 
     .navlink {
         visibility: hidden;
     }
 
-    .burgericon {
-        visibility: visible;
+    .burgeropen {
+        display: inherit;
     }
 }
 
 .active {
-    visibility: visible;
+    display: inherit;
+}
+
+.inactive {
+    display: none;
 }
 
 @media only screen and (min-width: 768px) {
     /* For bigger than phones: */
 
     .active {
-        visibility: hidden;
+        display: none;
     }
 }
 
