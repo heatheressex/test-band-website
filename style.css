@@ -638,3 +638,7 @@ transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
         display: none;
     }
 }
+
+button {
+    outline: none;
+}
