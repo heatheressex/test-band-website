@@ -497,3 +497,7 @@ footer .copyright {
 .copyright p {
     padding: 0 5%;
 }
+
+.test.active {
+    color: red;
+}
