@@ -162,6 +162,9 @@ main {
     }
 }
 
+p.greytxt {
+    color: rgb(215 215 215);
+}
 
 .albumtxt h3 {
     text-align: center;
@@ -408,7 +411,7 @@ h1.introelem {
 .profile {
     display: grid;
     grid: 1fr 1fr / 1fr 1fr 1fr 1fr;
-    margin: 60px 0;
+    margin: 60px 10px;
     column-gap: 2%;
     row-gap: 4%;
 }
@@ -477,4 +480,8 @@ h1.introelem {
 .faqanswers li {
     list-style: none;
     text-align: right;
+}
+
+uo.faqanswers {
+    color: rgb(207 207 207);
 }
