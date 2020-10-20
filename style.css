@@ -516,16 +516,20 @@ footer .copyright {
     text-align: center;
 }
 
-.popuptxt h5 {
+.popuptxt h3 {
     text-transform: uppercase;
-}
-
-.popuptxt h5, .popuptxt p {
     margin: 0;
 }
 
-.popupinner button {
+.popuptxt .close {
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding: 10px;
+}
 
+.popuptxt .close:hover {
+    cursor: pointer;
 }
 
 /* Animated hamburger menu by Jonathan Suh */

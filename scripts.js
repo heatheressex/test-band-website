@@ -17,6 +17,10 @@ $( document ).ready(function() {
       $( ".burgermenu" ).toggleClass("active");
     });
 
+    $( ".close" ).click(function() {
+      $( ".popupouter" ).toggleClass("active");
+    });
+
     setTimeout(function(){
 
       console.log( "Opening pop-up" );
