@@ -21,16 +21,16 @@ $( document ).ready(function() {
       $( ".popupouter" ).toggleClass("active");
     });
 
-    var firstvisit = localStorage.getItem('firstvisit');
+    /*var firstvisit = localStorage.getItem('firstvisit');
     if (firstvisit == null) {
 
-      localStorage.setItem('firstvisit', 1);
+      localStorage.setItem('firstvisit', 1);*/
 
-      setTimeout(function(){
+    //  setTimeout(function(){
 
         console.log( "Opening pop-up" );
         $( ".popupouter" ).toggleClass("active");
 
-      }, 5); /* reset back to 5000 */
-    }
+    //  }, 5000);
+    //}
 });
