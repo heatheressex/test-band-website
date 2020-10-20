@@ -21,10 +21,16 @@ $( document ).ready(function() {
       $( ".popupouter" ).toggleClass("active");
     });
 
-    setTimeout(function(){
+    var firstvisit = localStorage.getItem('firstvisit');
+    if (firstvisit == null) {
 
-      console.log( "Opening pop-up" );
-      $( ".popupouter" ).toggleClass("active");
+      localStorage.setItem('firstvisit', 1);
 
-    }, 5); /* reset back to 5000 */
+      setTimeout(function(){
+
+        console.log( "Opening pop-up" );
+        $( ".popupouter" ).toggleClass("active");
+
+      }, 5); /* reset back to 5000 */
+    }
 });

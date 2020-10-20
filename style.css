@@ -532,6 +532,11 @@ footer .copyright {
     cursor: pointer;
 }
 
+.input[type=submit] {
+    background-color: lawngreen;
+    
+}
+
 /* Animated hamburger menu by Jonathan Suh */
 .hamburger {
     padding: 11px;
