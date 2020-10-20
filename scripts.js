@@ -15,22 +15,26 @@ $( document ).ready(function() {
 
       $( ".hamburger" ).toggleClass("is-active");
       $( ".burgermenu" ).toggleClass("active");
+      console.log( "(Un)Hidden" );
     });
 
     $( ".close" ).click(function() {
       $( ".popupouter" ).toggleClass("active");
+      console.log( "Closed pop-up" );
     });
 
-    /*var firstvisit = localStorage.getItem('firstvisit');
+    var firstvisit = localStorage.getItem('firstvisit');
     if (firstvisit == null) {
 
-      localStorage.setItem('firstvisit', 1);*/
+      console.log( "New visitor" );
 
-    //  setTimeout(function(){
+      localStorage.setItem('firstvisit', 1);
+
+      setTimeout(function(){
 
         console.log( "Opening pop-up" );
         $( ".popupouter" ).toggleClass("active");
 
-    //  }, 5000);
-    //}
+      }, 5000);
+    }
 });
