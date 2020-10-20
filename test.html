@@ -19,8 +19,8 @@
         <div class="navigation centre">
           <a href="index.html"><img class="navlogo" src="images/180px-MCRXLogo.png"/></a>
           <h2><a class="header" href="index.html">My Chemical Romance</a></h2>
-          <a id="about" class="selected header navlink" href="about.html">About</a>
-          <a id="music" class="header navlink" href="music.html">Music</a>
+          <a id="about" class="header navlink" href="about.html">About</a>
+          <a id="music" class="selected header navlink" href="music.html">Music</a>
           <a id="tour" class="header navlink" href="tour.html">Tour</a>
         </div>
       </header>
@@ -30,7 +30,7 @@
             <span class="hamburger-inner"></span>
           </span>
         </button>
-        <div class="burgermenu">
+        <div class="burgermenu phone">
           <uo>
             <li><a class="header" href="index.html">Home</a></li>
             <li><a class="header" href="about.html">About</a></li>
@@ -41,129 +41,90 @@
       </div>
       <div class="popupouter">
         <div class="popupinner">
-          <p>test</p>
+          <img src="images/gerardprofile.jpg"/>
+          <div class="popuptxt">
+            <h5>Enter your email below for 25% off of albums</h5>
+            <form action="music.html" method="POST">
+              <input type="text" name="email" value="someone@example.com">
+              <br>
+              <input type="submit" value="Get 25% off">
+            </form>
+          </div>
         </div>
       </div>
-      <div class="heroimg aboutus abouttitle">
-        <h2>About MCR</h2>
-      </div>
-      <div class="aboutus aboutinfo">
+      <div class="titlebg">
         <div class="centre">
-          <div class="intro">
-            <div class="card introelem">
-              <h2><strong>Who are My Chemical Romance?</strong></h2>
-              <p class="greytxt">My Chemical Romance have a discography consisting of 4 main released albums: 
-                I Brought You My Bullets, You Brought Me Your Love (2002), Three Cheers for Sweet Revenge 
-                (2004), The Black Parade (2006) and Danger Days: The True Lives of the Fabulous Killjoys 
-                (2010). The albums each have a different sound and feel, ranging in emotion and genre. Multiple 
-                tracks were released in their Conventional Weapons series with other singles being dropped 
-                throughout their career.
-                <br><br>
-                My Chemical Romance have been described to have genres including alternative rock, emo, pop 
-                punk, post-hardcore, punk rock, hard rock. The first album distinctly represents desperation and trauma,
-                the second album has tones of anger and teenage rebellion, the third album symbolyses sadness, death
-                and grieving, with the fourth album being influenced by themes of electronic, pop and rock - representing
-                a super-hero take on the classic My Chemical Romance "us against the world" feel.
-              </p>
-            </div>
-            <h1 class="card introelem"><em>"Alternative rock<br>emo<br>pop punk<br>post-hardcore<br>punk rock<br>hard rock"</em></h1>
-          </div>
+          <h1 class="title">TEST</h1>
         </div>
       </div>
-      <main class="centre aboutus">
-        <div class="profile">
-          <div class="profileimg album">
-            <img src="images/gerardprofile.jpg" alt="Gerard Way posing for his album cover"/>
-            <p>Gerard Way</p>
-          </div>
-          <div class="profiletxt">
-            <h2>Gerard Way</h2>
-            <div class="profilelist">
-              <uo class="faqquestions">
-                <li>Role:</li>
-                <li>Age:</li>
-                <li>Home Town</li>
-                <li>Height:</li>
-                <li>Other Projects:</li>
-              </uo>
-              <uo class="faqanswers">
-                <li>Singer, songwriter</li>
-                <li>43</li>
-                <li>New Jersey</li>
-                <li>5'7</li>
-                <li>Hesitant Alien (2014), Comic books: The True Lives of the Fabulous Killoys, The Umbrella Academy (Netflix)</li>
-              </uo>
+      <h2 class="subtitle">Albums</h2>
+      <main class="centre music">
+        <div class="albums card">
+          <img class="album" src="images/firstAlbum.jpg" alt="Album cover of MCR's first album"/>
+          <div class="albumtxt">
+            <h3>I Brought You My Bullets,<br>You Brought Me Your Love</h3>
+            <p class="greytxt">After Gerard Way, the frontman, witnessed the World Trade Center towers fall, he decided 
+              to start a band. Way wrote the song "Skylines and Turnstiles" to express his feelings about
+              September 11. The first recording sessions were undertaken in an attic, the band refers to 
+              those sessions as "The Attic Demos." They recorded their debut album, <strong>I Brought You My 
+              Bullets, You Brought Me Your Love</strong>, just three months after the formation of the band. It was
+              produced by a friend who was the frontman of another band and they released it in 2002 through 
+              Eyeball Records.
+            </p>
+            <div class="readmore">
+              <a href="about.html">Read more</a>
             </div>
           </div>
-          <div class="profileimg album">
-            <img src="images/frankprofile.jpg" alt="Frank Iero posing with his guitar"/>
-            <p>Frank Iero</p>
-          </div>
-          <div class="profiletxt">
-            <h2>Frank Iero</h2>
-            <div class="profilelist">
-              <uo class="faqquestions">
-                <li>Role:</li>
-                <li>Age:</li>
-                <li>Home Town</li>
-                <li>Height:</li>
-                <li>Other Projects:</li>
-              </uo>
-              <uo class="faqanswers">
-                <li>Rythm guitarist</li>
-                <li>38</li>
-                <li>New Jersey</li>
-                <li>5'5</li>
-                <li>Front-man of multiple bands producing albums incl.: XO, Stomachaches, Parachutes, Barriers</li>
-              </uo>
+        </div>
+        <div class="albums card">
+          <div class="albumtxt">
+            <h3>Three Cheers for Sweet Revenge</h3>
+            <p class="greytxt">In 2003, the band signed a deal with Reprise Records, a major label. A year later, 
+              they released <strong>Three Cheers for Sweet Revenge</strong>. They released four singles 
+              from the album "<em>I'm Not Okay (I Promise)</em>", "<em>Thank You for the Venom</em>", "<em>Helena</em>", and "<em>The 
+              Ghost of You</em>". The album went platinum in just over a year of its release. One of the 
+              major influences for this album was the passing of Gerard and Mikey Way's grandmother, with
+              the song Helena named after her.
+            </p>
+            <div class="readmore">
+              <a href="about.html">Read more</a>
             </div>
           </div>
-          <div class="profileimg album">
-            <img src="images/rayprofile.jpg" alt="Ray Toro playing his guitar on stage"/>
-            <p>Ray Toro</p>
-          </div>
-          <div class="profiletxt">
-            <h2>Ray Toro</h2>
-            <div class="profilelist">
-              <uo class="faqquestions">
-                <li>Role:</li>
-                <li>Age:</li>
-                <li>Home Town</li>
-                <li>Height:</li>
-                <li>Other Projects:</li>
-              </uo>
-              <uo class="faqanswers">
-                <li>Lead guitarist</li>
-                <li>43</li>
-                <li>New Jersey</li>
-                <li>6'0</li>
-                <li>Remember the Laughter (2016), contributes to other bands' albums</li>
-              </uo>
+          <img class="album" src="images/secondAlbum.jpg" alt="Album cover of MCR's second album">
+        </div>
+        <div class="albums card">
+          <img class="album" src="images/thirdAlbum.jpg" alt="Album cover of MCR's third album">
+          <div class="albumtxt">
+            <h3>The Black Parade</h3>
+            <p class="greytxt">In 2006, the band played a special one-off show at the London Hammersmith Palais. Actors 
+              walked around the venue with capes and signs of "The Black Parade", it was announced that 
+              MCR were unable to play, but they would be replaced by The Black Parade. The band performed 
+              under a pseudonym for the theme of the album and continued wearing the costumes seen in the 
+              album's music videos. Welcome to the Black Parade became the band's first UK number one and the 
+              album ranked as one of the top albums of the year multiple times. In 2007, MCR won the NME Best 
+              International Band award.
+            </p>
+            <div class="readmore">
+              <a href="about.html">Read more</a>
             </div>
           </div>
-          <div class="profileimg album">
-            <img src="images/mikeyprofile.jpg" alt="Mikey Way on stage"/>
-            <p>Mikey Way</p>
-          </div>
-          <div class="profiletxt">
-            <h2>Mikey Way</h2>
-            <div class="profilelist">
-              <uo class="faqquestions">
-                <li>Role:</li>
-                <li>Age:</li>
-                <li>Home Town</li>
-                <li>Height:</li>
-                <li>Other Projects:</li>
-              </uo>
-              <uo class="faqanswers">
-                <li>Bassist</li>
-                <li>40</li>
-                <li>New Jersey</li>
-                <li>5'8</li>
-                <li>Formed the duo Electric Century: Electric Century (2015), For the Night to Control (2016)</li>
-              </uo>
+        </div>
+        <div class="albums card">
+          <div class="albumtxt">
+            <h3>Danger Days:<br>The True Lives of the Fabulous Killjoys</h3>
+            <p class="greytxt">Their much anticipated fourth studio album, reffered to as <strong>Danger Days</strong>,
+              was released in 2010, and is their final album release before their almost 7-year breakup. 
+              This album follows a story: within a post-apocalyptic California, in the then future 2019, 
+              the band pose as outsiders called 'Killjoys' to fight against the ruling evil corporation. 
+              In 2013, frontman Gerard Way published a comic that continues the story described in the 
+              album. The album received generally favourable reviews, scoring 70/100 from Metacritic, and 
+              being #28 on Rolling Stone's 30 Best Albums of 2010.
+            </p>
+            <div class="readmore">
+              <a href="about.html">Read more</a>
             </div>
           </div>
+          <img class="album" src="images/fourthAlbum.jpg" alt="Album cover of MCR's fourth album">
         </div>
       </main>
     </div>

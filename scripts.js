@@ -21,6 +21,6 @@ $( document ).ready(function() {
 
       console.log( "Opening pop-up" );
       $( ".popupouter" ).toggleClass("active");
-      
-    }, 5000);
+
+    }, 5); /* reset back to 5000 */
 });
