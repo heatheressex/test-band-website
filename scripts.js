@@ -5,15 +5,22 @@ $( document ).ready(function() {
 
       if ($( ".hamburger" ).hasClass( "is-active" )) {
         $( ".burgermenu" ).slideUp( "slow", function() {
-          console.log( "slide up" );
+          console.log( "Slide up" );
         });
       } else {
         $( ".burgermenu" ).slideDown( "slow", function() {
-          console.log( "slide down" );
+          console.log( "Slide down" );
         });
       }
 
       $( ".hamburger" ).toggleClass("is-active");
       $( ".burgermenu" ).toggleClass("active");
     });
+
+    setTimeout(function(){
+
+      console.log( "Opening pop-up" );
+      $( ".popupouter" ).toggleClass("active");
+      
+    }, 5000);
 });
