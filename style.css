@@ -82,7 +82,7 @@ a.navlink:hover {
     text-decoration: underline;
 }
 
-main {
+section[role=main] {
     padding: 0 10px;
     color: white;
     box-sizing: border-box;
