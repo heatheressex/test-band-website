@@ -7,7 +7,8 @@ body {
 .main-wrap {
     display: grid;
     grid-template-rows: minmax(70px, auto) 1fr 160px;
-    height: 100vh;
+    min-height: 100vh;
+    max-height: 100%;
 }
 
 .centre {
@@ -25,7 +26,7 @@ nav {
 }
 
 nav .centre {
-    height: 100%;
+    height: 70px;
     display: grid;
     grid-template-columns: 70px 5fr 1fr 1fr 1fr;
     column-gap: 1%;
@@ -151,7 +152,7 @@ section[role=main] {
 
 .cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: 40px 2%;
     column-gap: 5%;
 }
@@ -160,7 +161,7 @@ section[role=main] {
     /* For mobile phones: */
 
     .cards {
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template: 1fr 1fr 1fr / 1fr;
     }
 
 }
@@ -317,7 +318,7 @@ transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
 
-    .navigation {
+    nav .centre {
         grid-template-columns: 70px 1fr 61px;
     }
 

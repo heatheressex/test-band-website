@@ -214,7 +214,7 @@ img {
 
 .cards {
     display: grid;
-    grid-template: 1fr / 1fr 1fr 1fr ;
+    grid-template: 1fr / 1fr 1fr 1fr;
     margin: 40px 2%;
     column-gap: 5%;
 }
