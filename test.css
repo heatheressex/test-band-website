@@ -26,24 +26,24 @@ nav .centre {
     column-gap: 1%;
 }
 
-.navlink {
+.nav-link {
     justify-self: center;
     font-weight: 600;
     font-size: 18px;
 }
 
-a.navlink:hover {
+a.nav-link:hover {
     color: rgb(100, 100, 100);
 }
 
-.navlink, .navtitle {
+.nav-link, .nav-title {
     align-self: center;
     text-transform: uppercase;
     text-decoration: none;
     color: black;
 }
 
-.navlogo {
+.nav-logo {
     width: 50px;
     height: 50px;
     margin-top: 10px;
@@ -66,8 +66,47 @@ footer {
     flex-direction: column;
 }
 
-.test {
-    height: 136px;
+.footer-main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    color: rgb(150, 150, 150);
+}
+
+.footer-main a {
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+    margin: 16px 0;
+    display: block;
+}
+
+.contact a {
+    color: white;
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.contact p {
+    margin-bottom: 5px;
+}
+
+.fa {
+    padding: 10px;
+    width: 20px;
+    text-align: center;
+}
+
+.fa-facebook {
+    background: #3B5998;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+}
+
+.fa:hover, .footer-main a:hover {
+    opacity: 0.7;
 }
 
 footer .copyright {
