@@ -7,17 +7,74 @@ body {
 .main-wrap {
     display: grid;
     grid-template-rows: 70px 1fr 160px;
-    height: 100vh
+    height: 100vh;
+}
+
+.centre {
+    margin: auto;
+    max-width: 1440px; 
 }
 
 nav {
     background-color: white;
 }
 
+nav .centre {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 70px 5fr 1fr 1fr 1fr;
+    column-gap: 1%;
+}
+
+.navlink {
+    justify-self: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+a.navlink:hover {
+    color: rgb(100, 100, 100);
+}
+
+.navlink, .navtitle {
+    align-self: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+.navlogo {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    grid-column: 1 / 2;
+}
+
+nav h2 {
+    margin: 0;
+    align-self: center;
+}
+
 .content {
-    
+    /* ... */
 }
 
 footer {
     background-color: rgb(20, 20, 20);
+    display: flex;
+    flex-direction: column;
+}
+
+.test {
+    height: 136px;
+}
+
+footer .copyright {
+    background-color: #0d0d0d;
+    color: #4c4c4c;
+}
+
+.copyright p {
+    padding: 0 5%;
 }
