@@ -15,6 +15,11 @@ body {
     max-width: 1440px; 
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 nav {
     background-color: white;
 }
@@ -54,6 +59,10 @@ a.nav-link:hover {
 nav h2 {
     margin: 0;
     align-self: center;
+}
+
+.selected {
+    text-decoration: underline;
 }
 
 footer {
@@ -112,6 +121,66 @@ footer .copyright {
 
 .copyright p {
     padding: 0 5%;
+}
+
+/* Content */
+
+.hero {
+    background-color: black;
+}
+
+.hero h1 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 100px;
+}
+
+.hero a {
+    text-decoration: none;
+    color: white;
+}
+
+section[role=main] {
+    padding: 0 10px;
+    color: white;
+    box-sizing: border-box;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin: 40px 2%;
+    column-gap: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+    .cards {
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+}
+
+.card {
+    justify-self: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(26, 26, 26);
+    text-align: center;
+    padding: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card h3 {
+    text-transform: uppercase;
+}
+
+.index .card:hover {
+    color: rgb(161, 161, 161);
 }
 
 button {
