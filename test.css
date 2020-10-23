@@ -189,6 +189,127 @@ section[role=main] {
     color: rgb(161, 161, 161);
 }
 
+/* About page */
+
+.about .hero-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/aboutushero.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.about h2 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+.about .title h2 {
+    padding: 120px 0;
+    font-size: 40px;
+}
+
+.about .info {
+    padding: 60px 10px;
+    background-color: rgb(17, 17, 17);
+}
+
+.about .intro {
+    display: grid;
+    grid-template: 1fr / 1.5fr 1fr;
+    margin: 0 5%;
+    column-gap: 5%;
+}
+
+.about .intro .card {
+    padding: 5%;
+}
+
+.about .intro h1.card {
+    text-transform: uppercase;
+    align-self: center;
+    font-size: 2em;
+}
+
+.profile {
+    display: grid;
+    grid: 1fr 1fr / 1fr 1fr 1fr 1fr;
+    margin: 60px 10px;
+    column-gap: 2%;
+    row-gap: 4%;
+}
+
+@media only screen and (max-width: 1000px) {
+    /* For mobile phones: */
+
+    .profile {
+        grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr / 1fr;
+        margin-bottom: 150px;
+        row-gap: 1%;
+    }
+
+    .about .intro h1.card {
+        align-self: start;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+    .about .intro {
+        grid-template: 1fr / 5fr 1fr;
+    }
+
+    .about .intro h1.card {
+        font-size: 1em;
+    }
+
+    .about .hero-img {
+        height: 150px;
+    }
+
+    .about .title h2 {
+        padding: 45px 0;
+    }
+
+}
+
+.about .instant-img p {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.profile h2 {
+    background-color: white;
+    color: black;
+}
+
+.factfile {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+}
+
+.factfile li {
+    margin: 10px;
+}
+
+.questions {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.answers li {
+    list-style: none;
+    text-align: right;
+}
+
+uo.answers {
+    color: rgb(207 207 207);
+}
+
 /* Music page: popup */
 .popup {
     display: none;
@@ -298,7 +419,7 @@ input[type=text] {
     padding: 20px;
 }
 
-.album-img {
+.instant-img {
     justify-self: center;
     background-color: white;
     padding: 10px;
