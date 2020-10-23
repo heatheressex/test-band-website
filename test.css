@@ -190,7 +190,6 @@ section[role=main] {
 }
 
 /* About page */
-
 .about .hero-img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/aboutushero.jpg);
     height: 300px;
@@ -324,12 +323,19 @@ uo.answers {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     display: grid;
-    grid-template: 1fr / 1fr 3fr;
+    grid-template-columns: 1fr 3fr;
+}
+
+.popup-img {
+    background-image: url(images/popup.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .popup-txt {
     padding: 30px;
     text-align: center;
+    align-self: center;
 }
 
 .popup-txt h3 {
@@ -432,7 +438,14 @@ input[type=text] {
     /* For mobile phones: */
 
     .albums .card {
-        grid-template: 1fr 1fr / 1fr;
+        display: flex;
+        flex-direction: column;
+        margin: 20px 10px;
+    }
+
+    .albums .instant-img {
+        margin-block-start: 1em;
+        margin-block-end: 1em;
     }
 
     .album-txt {

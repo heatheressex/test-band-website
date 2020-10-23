@@ -35,6 +35,6 @@ $( document ).ready(function() {
         console.log( "Opening pop-up" );
         $( ".popup" ).toggleClass("active");
 
-      }, 5000);
+      }, 3000);
     }
 });
