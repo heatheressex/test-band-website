@@ -18,8 +18,8 @@ $( document ).ready(function() {
       console.log( "(Un)Hidden" );
     });
 
-    $( ".close" ).click(function() {
-      $( ".popupouter" ).toggleClass("active");
+    $( ".close-popup" ).click(function() {
+      $( ".popup" ).toggleClass("active");
       console.log( "Closed pop-up" );
     });
 
@@ -33,7 +33,7 @@ $( document ).ready(function() {
       setTimeout(function(){
 
         console.log( "Opening pop-up" );
-        $( ".popupouter" ).toggleClass("active");
+        $( ".popup" ).toggleClass("active");
 
       }, 5000);
     }
