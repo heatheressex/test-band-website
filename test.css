@@ -21,6 +21,7 @@ img {
     height: auto;
 }
 
+/* Navigation */
 nav {
     background-color: white;
 }
@@ -66,6 +67,7 @@ nav h2 {
     text-decoration: underline;
 }
 
+/* Footer */
 footer {
     background-color: rgb(20, 20, 20);
     display: flex;
@@ -125,6 +127,9 @@ footer .copyright {
 }
 
 /* Content */
+.content {
+    padding-bottom: 48px;
+}
 
 .hero {
     background-color: black;
@@ -182,6 +187,81 @@ section[role=main] {
 
 .index .card:hover {
     color: rgb(161, 161, 161);
+}
+
+/* Tour page */
+#tour-body {
+    background-color: black;
+}
+
+.centre-tour {
+    margin: auto;
+    max-width: 800px;
+}
+
+#main-tour {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(29,29,29,1) 100%);
+    padding: 50px;
+    box-sizing: content-box;
+    margin-bottom: 20px;
+}
+
+#show-title {
+    background-color: #a89465;
+    margin-bottom: 8px;
+}
+
+.show {
+    display:grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+    .show {
+        column-gap: 1%;
+    }
+
+}
+
+.show p {
+    margin: 0;
+}
+
+.tickets {
+    justify-self: right;
+    text-transform: uppercase;
+}
+
+.tickets a {
+    background-color: white;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.tickets a:hover {
+    background-color: #756747;
+    color: white;
+}
+
+.soldout {
+    background-color: rgb(102, 102, 102);
+    color:rgb(41, 41, 41);
+    cursor: not-allowed;
+    padding: 5px;
+}
+
+.bold {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.capitalise {
+    text-transform: capitalize;
 }
 
 button {
